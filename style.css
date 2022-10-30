@@ -9,21 +9,54 @@ body{
     background-attachment: fixed;
     font-size: 2em;
 }
-header{
-    text-align: center;
-}
 section{
-      
-    margin: 12px 0px 0px 0px;
-  
+  margin:auto;
+  max-width: 800px;
+  padding: 10px;
 }
-aside{
+#paragr{
+    text-align:center;
+}
+#theader{
+    width: auto;
+    margin:auto;
     
-    width: 150px;
-    margin: 0px 0px 0px 0px;
+}
+#rheader{}
+    
+a{
+    text-decoration: none;
+
+}   
+
+#dheader{
+    text-align: center;
+    
    
 }
+p{
+    list-style-type: none;
+    font-weight: 600;
+    text-align: justify;
+    
+}
+li{
+    list-style-type: none;
+    font-weight: 600;
+    text-align: center;
+    padding: 10px;
+}
+h2{
+    list-style-type: none;
+    text-align: center;
+    
+}
+h3{
+    list-style-type: none;
+    text-align:left;
+    padding: 8px;
+}
 footer{
-    margin:;
+    margin:auto;
     text-align: center;
 }
