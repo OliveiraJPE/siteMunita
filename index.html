@@ -8,12 +8,13 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <title>Martina Fissurada</title>
-    <script src="script.js" language="js"></script>
+    
     <script>
        
-        var nome=window.prompt("Olá, escreva seu primeiro nome, para melhorar nossa interação: ")
+       var nome=window.prompt("Olá, escreva seu primeiro nome, para melhorar nossa interação: ");
 
-        window.alert(`Olá, ${nome}. ESTE SITE AINDA ESTÁ EM CONSTRUÇÃO! MAS,aproveite para aprender tudo o que puder sobre as Coisas de fissurados. Visite também meu  canal no youtube - Martina Fissurada : https://www.youtube.com/channel/UC3gKVfUMlUkeO9k186kUEvA".`)
+        window.alert(`Olá, ${nome}. ESTE SITE AINDA ESTÁ EM CONSTRUÇÃO! MAS,aproveite para aprender tudo o que puder sobre as Coisas de fissurados. Visite também meu  canal no youtube - Martina Fissurada : https://www.youtube.com/channel/UC3gKVfUMlUkeO9k186kUEvA".`);
+    
     </script>
 </head>
 <body>
@@ -22,11 +23,21 @@
                 <table id="theader">
                     <tr id="rheader">
                         <td>&nbsp;&nbsp;&nbsp;</td>
-                        <td id="dheader">&nbsp;&nbsp;<img id="right" src="MunitaRight.png" alt="">&nbsp;&nbsp;</td>
-                        <td id="dheader">
+                        <td id="dheader">&nbsp;&nbsp;
+                            <picture>
+                                <source media="(min-width: 600px)" srcset="MunitaRight.png" type="image/png">
+                                <img id="right" src="MunitaRight3.png" alt="Foto Martina">&nbsp;&nbsp;</picture>
+                        </td>
+                        <td id="dheader2">
                             <h1 id="paragr">&nbsp;&nbsp;Coisas de fissurada&nbsp;&nbsp;</h1>
                         </td>
-                        <td id="dheader">&nbsp;&nbsp;<img id="left" src="MunitaLeft2.png" alt="">&nbsp;&nbsp;</td>
+                        <td id="dheader">&nbsp;&nbsp;
+                            <picture>
+                                <source media="(min-width: 600px)" srcset="MunitaLeft2.png" type="image/png">
+                                <img id="left" src="MunitaLeft3.png" alt="">
+                            </picture>
+                            &nbsp;&nbsp;
+                        </td>
                         <td>&nbsp;&nbsp;<a href="pagina2.html">&rArr;<br>Próxima</a></td>
                     </tr>
                 </table>        
@@ -52,5 +63,6 @@
         </footer>
 
     </main>
+    <script src="script.js"></script>
 </body>
 </html>

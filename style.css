@@ -17,6 +17,9 @@ section{
 #paragr{
     text-align:center;
 }
+header{
+    width: auto;
+}
 #theader{
     width: auto;
     margin:auto;
@@ -29,7 +32,7 @@ a{
 
 }   
 
-#dheader{
+#dheader, #dheader2{
     text-align: center;
     
    
