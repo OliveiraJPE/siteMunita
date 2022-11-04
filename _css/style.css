@@ -1,18 +1,29 @@
 @charset "UTF-8";
 @font-face {
     font-family: 'shalimar';
-    src: url(Shalimar-Regular.ttf);
+    src: url(../_fonts/Shalimar-Regular.ttf);
+}
+@font-face {
+    font-family: 'chewi';
+    src: url(../_fonts/Chewy-Regular.ttf);
+}
+@font-face {
+    font-family: 'handlee';
+    src: url(../_fonts/Handlee-Regular.ttf);
 }
 body{
-    font-family: 'shalimar';
+    font-family: 'handlee', 'Times New Roman', Times, serif;
     background-image:linear-gradient( to bottom, rgb(239, 224, 239), rgb(194, 148, 194), rgb(145, 87, 145));
     background-attachment: fixed;
     font-size: 2em;
 }
 section{
+  background-image:linear-gradient(to bottom, rgb(212, 212, 243),rgb(183, 183, 220),rgb(148, 148, 211) );
   margin:auto;
-  max-width: 800px;
-  padding: 10px;
+  max-width: 900px;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 5px black;
 }
 #paragr{
     text-align:center;
@@ -21,27 +32,27 @@ header{
     width: auto;
 }
 #theader{
-    width: auto;
-    margin:auto;
-    
+  margin:auto;
+  max-width: 900px;
+      
 }
-#rheader{}
+#rheader{
+    text-align: center;
+   
+}
     
 a{
     text-decoration: none;
-
 }   
 
 #dheader, #dheader2{
     text-align: center;
     
-   
 }
 p{
     list-style-type: none;
     font-weight: 600;
     text-align: justify;
-    
 }
 li{
     list-style-type: none;
@@ -63,3 +74,17 @@ footer{
     margin:auto;
     text-align: center;
 }
+#fig{
+    text-align: center;  
+}
+#v{
+    position:absolute;
+    text-align:left; 
+}   
+#a{   
+    
+    text-align:right;
+
+}
+
+/*#theader2{border: 1px solid black;  }*/
