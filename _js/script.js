@@ -11,13 +11,13 @@
 
     function entrar(){
         var foto= window.document.querySelector("img#right");
-        foto.src=`_imagens/MunitaUp.png`
+        foto.src=`/_imagens/MunitaUp.png`
         }
     function saiu(){
             var foto= window.document.querySelector("img#right");
-            foto.src=`_imagens/MunitaRight2.png`
+            foto.src=`/_imagens/MunitaRight2.png`
         }
     function clicou(){
             var foto= window.document.querySelector("img#right");
-            foto.src=`_imagens/MunitaUpUp.png`
+            foto.src=`/_imagens/MunitaUpUp.png`
         }       
